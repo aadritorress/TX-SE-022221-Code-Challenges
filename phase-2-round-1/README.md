@@ -87,6 +87,8 @@ A user can fill out a form to create a new Appearance. They can:
 
 After submitting the form, the user should be redirected to the selected episode's show page.
 
+### CREATE action was working before error message, come back to fix it 
+
 ### 3. Episode Show Page
 
 On the episode show page, a user should see:
@@ -94,6 +96,9 @@ On the episode show page, a user should see:
 - Episode date
 - A list of the guests who were on that episode
 - Each guest's name should link to the Guest Show page
+
+#### fix SHOW PAGE 
+
 
 ### 4. Guest Show Page Episode links
 

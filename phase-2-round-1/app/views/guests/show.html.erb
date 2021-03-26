@@ -1,0 +1,12 @@
+<h1> Guest Page </h1>
+   <h2><%= @guest.name %></h2>
+   <br>
+   <% @guest.episodes.each do |e| %>
+    <li><%= link_to e.date, e %></li>
+    <br>
+    <% @guest.appearances.each do |a| %>
+    <li><%= a.rating %></li>
+    <%end%> 
+    <%end%>
+
+
